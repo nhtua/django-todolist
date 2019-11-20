@@ -19,8 +19,8 @@ Try it out by installing the requirements. (Works only with python >= 3.4, due t
 Settings:
 
     cd todolist/
-    cp settings.example.py settings.development.py
-
+    # django-todolist use settings-development.py as default settings. You need to set your configuration here.
+    cp settings-example.py settings-development.py
 
 Migrate:
 
