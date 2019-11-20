@@ -18,17 +18,18 @@ Try it out by installing the requirements. (Works only with python >= 3.4, due t
     
 Settings:
 
+django-todolist use settings-development.py as default settings. You need to set your configuration here.
+
     cd todolist/
-    # django-todolist use settings-development.py as default settings. You need to set your configuration here.
     cp settings-example.py settings-development.py
 
 Migrate:
 
-    python manage.py migrate
+    pipenv run python manage.py migrate
 
 And then start the server (default: http://localhost:8000)
 
-    python manage.py runserver
+    pipenv run python manage.py runserver
 
 
 Now you can browse the [API](http://localhost:8000/api/)
