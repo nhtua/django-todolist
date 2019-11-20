@@ -14,7 +14,13 @@ I've also build a quite similar app in Flask: https://github.com/rtzll/flask-tod
 ## Explore
 Try it out by installing the requirements. (Works only with python >= 3.4, due to django 2)
 
-    pip install -r requirements.txt
+    pipenv install
+    
+Settings:
+
+    cd todolist/
+    cp settings.example.py settings.development.py
+
 
 Migrate:
 
